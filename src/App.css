@@ -15,7 +15,13 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 3em;
+  float:left;
+  
+}
+.top-bar {
+  text-align: center;
+  height: 80px;
 }
 
 .App-intro {
@@ -25,4 +31,26 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.app-nav {
+  float: right;
+  padding: 5px;
+  margin-right: 50px;
+}
+
+.nav-btn {
+  font-size: 1em;
+}
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-scroll-box {
+  border: 2px solid black;
+  height: 800px;
+  width: 1000px;
+  overflow: auto;
 }
